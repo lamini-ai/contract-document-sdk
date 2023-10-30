@@ -1,0 +1,65 @@
+{
+  "name": "frontend-app",
+  "version": "0.1.0",
+  "main": "index.tsx",
+  "private": true,
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.9",
+    "@codemirror/lang-python": "^6.1.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/joy": "^5.0.0-beta.2",
+    "@mui/material": "^5.14.5",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-avatar": "^1.0.3",
+    "@radix-ui/react-hover-card": "^1.0.6",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-popover": "^1.0.6",
+    "@radix-ui/react-scroll-area": "^1.0.4",
+    "@radix-ui/react-select": "^1.2.2",
+    "@react-oauth/google": "latest",
+    "@tailwindcss/forms": "^0.5.4",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "latest",
+    "@uiw/codemirror-themes": "^4.21.9",
+    "@uiw/react-codemirror": "^4.21.9",
+    "codemirror": "^6.0.1",
+    "env-cmd": "latest",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.28",
+    "postcss-cli": "latest",
+    "postcss-loader": "latest",
+    "react": "latest",
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "latest",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "statsig-js": "^4.39.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
